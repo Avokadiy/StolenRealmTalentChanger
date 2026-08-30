@@ -1,41 +1,36 @@
 ```
 # Build artifacts
+bin/
+obj/
 *.dll
 *.exe
 *.pdb
-*.mdb
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
-*.obj
-*.log
-*.nupkg
-*.snupkg
-packages/
-bin/
-obj/
-out/
+*.so
+*.dylib
+*.class
 
 # Dependencies
 packages/
 node_modules/
+.nuget/
+.npm/
 
-# Editors
-.vs/
-.vshost.exe
-.userosscache
-.userprefs
+# Logs
+*.log
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-desktop.ini
-Icon?
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Configuration specific to builds
+Debug/
+Release/
+x64/
+x86/
 ```
