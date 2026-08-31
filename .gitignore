@@ -7,13 +7,21 @@ obj/
 *.pdb
 *.so
 *.dylib
+*.jar
+*.war
 *.class
+*.o
+*.obj
+*.out
 
 # Dependencies
 packages/
 node_modules/
-.nuget/
-.npm/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs
 *.log
@@ -22,15 +30,57 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Editor files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# Configuration specific to builds
-Debug/
-Release/
-x64/
-x86/
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Distribution / packaging
+.dist/
+.build/
+.deps/
+
+# Generated documentation
+docs/_build/
+
+# Compression archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```

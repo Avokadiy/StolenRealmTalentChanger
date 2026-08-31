@@ -25,13 +25,4 @@
     </Reference>
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SolutionDir)plugins" SkipUnchangedFiles="true" />
-  </Target>
-
-  <RestoreSources>
-    <RestoreSource>https://api.nuget.org/v3/index.json</RestoreSource>
-    <RestoreSource>https://nuget.bepinex.dev/v3/index.json</RestoreSource>
-  </RestoreSources>
-
 </Project>
