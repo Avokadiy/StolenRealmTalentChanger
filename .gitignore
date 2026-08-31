@@ -5,33 +5,10 @@
 *.userprefs
 *.unityproj
 *.meta
-Library/
-Temp/
-Obj/
-Build/
-Logs/
 .vs/
 
 # Visual Studio Code
 .vscode/
-
-# Compiled files
-*.dll
-*.exe
-*.pdb
-*.mdb
-*.mod
-*.ilk
-*.iobj
-*.ipdb
-*.exp
-*.lib
-*.so
-*.dylib
-*.class
-*.o
-*.obj
-*.out
 
 # Dependencies
 Packages/
@@ -67,14 +44,6 @@ desktop.ini
 *.bak
 *.cache
 *.cachedata
-
-# Build outputs
-bin/
-obj/
-out/
-dist/
-target/
-build/
 
 # Python (if applicable)
 __pycache__/
