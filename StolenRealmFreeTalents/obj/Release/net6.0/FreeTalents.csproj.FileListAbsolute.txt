@@ -1,0 +1,12 @@
+/workspace/StolenRealmFreeTalents/bin/Release/net6.0/FreeTalents.deps.json
+/workspace/StolenRealmFreeTalents/bin/Release/net6.0/FreeTalents.dll
+/workspace/StolenRealmFreeTalents/bin/Release/net6.0/FreeTalents.pdb
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/FreeTalents.csproj.AssemblyReference.cache
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/FreeTalents.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/FreeTalents.AssemblyInfoInputs.cache
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/FreeTalents.AssemblyInfo.cs
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/FreeTalents.csproj.CoreCompileInputs.cache
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/FreeTalents.dll
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/refint/FreeTalents.dll
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/FreeTalents.pdb
+/workspace/StolenRealmFreeTalents/obj/Release/net6.0/ref/FreeTalents.dll

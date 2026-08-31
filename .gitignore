@@ -92,13 +92,10 @@ yarn.lock
 hs_err_pid*
 replay_pid*
 
-# C#/.NET specific
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+# C#/.NET specific (excluding mod builds)
+# Note: [Bb]in/ and [Oo]bj/ are kept for mod distribution
+# [Ll]og/
 [Tt]emp/
-[Dd]ebug/
-[Rr]elease/
 _UpgradeReport_Files/
 *.aps
 *.ncb
