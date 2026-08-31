@@ -5,33 +5,10 @@
 *.userprefs
 *.unityproj
 *.meta
-Library/
-Temp/
-Obj/
-Build/
-Logs/
 .vs/
 
 # Visual Studio Code
 .vscode/
-
-# Compiled files (excluding mod DLLs)
-# Note: *.dll is kept for mod distribution
-# *.exe
-# *.pdb
-*.mdb
-*.mod
-*.ilk
-*.iobj
-*.ipdb
-*.exp
-*.lib
-*.so
-*.dylib
-*.class
-*.o
-*.obj
-*.out
 
 # Dependencies
 Packages/
@@ -67,12 +44,6 @@ desktop.ini
 *.bak
 *.cache
 *.cachedata
-
-# Build outputs (excluding specific mod builds)
-# Note: bin/ and obj/ are kept for mod distribution
-# dist/
-# target/
-# build/
 
 # Python (if applicable)
 __pycache__/
