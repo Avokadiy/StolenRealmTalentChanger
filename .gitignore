@@ -15,10 +15,10 @@ Logs/
 # Visual Studio Code
 .vscode/
 
-# Compiled files
-*.dll
-*.exe
-*.pdb
+# Compiled files (excluding mod DLLs)
+# Note: *.dll is kept for mod distribution
+# *.exe
+# *.pdb
 *.mdb
 *.mod
 *.ilk
@@ -68,13 +68,11 @@ desktop.ini
 *.cache
 *.cachedata
 
-# Build outputs
-bin/
-obj/
-out/
-dist/
-target/
-build/
+# Build outputs (excluding specific mod builds)
+# Note: bin/ and obj/ are kept for mod distribution
+# dist/
+# target/
+# build/
 
 # Python (if applicable)
 __pycache__/
@@ -123,13 +121,10 @@ yarn.lock
 hs_err_pid*
 replay_pid*
 
-# C#/.NET specific
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+# C#/.NET specific (excluding mod builds)
+# Note: [Bb]in/ and [Oo]bj/ are kept for mod distribution
+# [Ll]og/
 [Tt]emp/
-[Dd]ebug/
-[Rr]elease/
 _UpgradeReport_Files/
 *.aps
 *.ncb
